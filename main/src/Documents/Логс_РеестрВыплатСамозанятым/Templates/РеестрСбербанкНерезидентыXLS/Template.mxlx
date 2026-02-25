@@ -100,7 +100,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>БИК банка, где открыт расчетный счет организации</v8:content>
+							<v8:content>БИК Банка организации</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -232,7 +232,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: Имя</v8:content>
+							<v8:content> Имя сотрудника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -243,7 +243,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: Отчество</v8:content>
+							<v8:content>Отчество сотрудника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -254,7 +254,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: Сумма</v8:content>
+							<v8:content>Сумма к выплате</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -265,7 +265,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: Счет</v8:content>
+							<v8:content>Счет зачисления</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -276,7 +276,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: Фамилия</v8:content>
+							<v8:content>Фамилия сотрудника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -287,7 +287,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники, которым зачисляют зарплату: № п/п</v8:content>
+							<v8:content>№ п/п</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -298,7 +298,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер индивидуального договора</v8:content>
+							<v8:content>Номер индивидуального договора сотрудника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -309,7 +309,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата индивидуального договора</v8:content>
+							<v8:content>Дата индивидуального договора сотрудника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -432,13 +432,18 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>ВидЗачисления</parameter>
+					<f>16</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>87</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>ДатаДокумента</parameter>
 				</c>
 			</c>
@@ -456,14 +461,24 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>КодВидаВалютнойОперации</parameter>
+					<f>16</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>21200</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>КодВидаДохода</parameter>
+					<f>16</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -540,14 +555,14 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>ДатаДоговора</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>17</defaultFormatIndex>
+	<defaultFormatIndex>18</defaultFormatIndex>
 	<height>3</height>
 	<vgRows>3</vgRows>
 	<namedItem xsi:type="NamedItemCells">
@@ -571,7 +586,7 @@
 		</area>
 	</namedItem>
 	<format>
-		<width>187</width>
+		<width>76</width>
 	</format>
 	<format>
 		<width>95</width>
@@ -616,6 +631,10 @@
 	<format>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<textPlacement>Wrap</textPlacement>
