@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a26c50dd-84b4-4184-8793-19727808ddf3">
+  <name>Логс_ОбменСTMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логс обмен С TMS(АВИТО)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
