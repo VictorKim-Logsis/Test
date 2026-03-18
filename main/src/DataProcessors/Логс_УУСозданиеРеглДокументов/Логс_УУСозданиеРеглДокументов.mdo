@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8169c35d-c028-4724-a81a-43eabe1eb0a8">
+  <producedTypes>
+    <objectType typeId="a70e5bc3-43c0-4426-a86e-21aeace07761" valueTypeId="3d3adf18-de8d-471a-ae67-a29e41abbbbc"/>
+    <managerType typeId="a7fc381d-6071-4b4c-8eb0-822d364af79a" valueTypeId="db21e15d-eb46-4f88-b9d4-46fb984d5ebf"/>
+  </producedTypes>
+  <name>Логс_УУСозданиеРеглДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>УУ Создание регламентированных документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Логс_УУСозданиеРеглДокументов.Form.ОсновнаяФорма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Создание регламентированных документов</value>
+  </extendedPresentation>
+  <forms uuid="244c697d-b68b-4cf6-a4b9-780b57e22357">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45976d1e-34a4-4a2b-96fa-4a53053ebcbb">
+    <name>СозданиеЗаявокНаРасходованиеДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание заявок на расходование ДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6a4c3c7c-d056-4b6e-8cf0-0625d3470749">
+    <name>СозданиеСчетовНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание счетов на оплату</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9348924-bbf9-4626-93ba-b76430c831d5">
+    <name>СозданиеДокументовПоПоступлениюДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание документов по поступлению ДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cce04773-0ceb-4b78-bb1d-bc2c980334ab">
+    <name>СозданиеДокументовПоДвижениюДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание документов по движению ДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6fe42970-73c6-40d3-91ee-95354de1fc94">
+    <name>ОтчетОРезультатахВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о результатах выполнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92a44b0b-fd32-4a80-8ff1-e12f70ad6710">
+    <name>УдалитьСозданиеРасходныхКассовыхОрдеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить создание расходных кассовых ордеров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="81c92ff7-0a4f-4414-8e2a-2bc896b8f6fc">
+    <name>ОтчетОСозданныхДокументахДвиженияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о созданных документах движения ДС</value>
+    </synonym>
+  </templates>
+  <commands uuid="368c4873-3973-44da-94a4-283ed1a6cb18">
+    <name>СозданиеРеглДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание регламентированных документов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
